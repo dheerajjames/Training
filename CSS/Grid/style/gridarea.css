@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+.container{
+    width:50%;
+    height:100vh;
+    border: 2px solid black;
+    margin: auto;
+    display: grid;
+    font-size:3rem;
+    text-align: center;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-areas: "nav nav""con aside""footer footer";
+}
+.nav{
+    background-color: blue;
+    grid-area: nav;
+ 
+}
+.content{
+   
+    background-color:red;
+    grid-area: con;
+}
+.aside{
+ 
+    background-color:yellow;
+    grid-area: aside;
+}
+.footer{
+    grid-area:footer;
+    background-color:pink;
+}
