@@ -1,0 +1,18 @@
+.box{
+    width:60%;
+    height: 100px;
+    border: 2px solid black;
+    margin:10px auto;
+}
+.center-text{
+    margin: 40px, auto;
+    text-align: center;
+}
+
+.relative{
+    background-color: aqua;
+}
+.lol{
+    border: 2px solid black;
+    text-align: center;
+}
